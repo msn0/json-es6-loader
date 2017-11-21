@@ -1,0 +1,11 @@
+{
+  "name": "json-es6-loader",
+  "version": "1.0.0",
+  "description": "Transform JSON to ES6 module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michał Jezierski <ambinanitelo@gmail.com>",
+  "license": "MIT"
+}
