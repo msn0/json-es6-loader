@@ -37,9 +37,7 @@ $ npm i json-es6-loader -D
 ```js
 {
     test: /\.json$/,
-    use: [{
-        loader: 'json-es6-loader'
-    }]
+    use: 'json-es6-loader'
 }
 ```
 
