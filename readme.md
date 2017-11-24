@@ -46,7 +46,7 @@ $ npm i json-es6-loader -D
 Please read official guide https://webpack.js.org/guides/tree-shaking/. Just to summarize it - in order to enable Tree Shaking for JSON modules you need to: 
 * use production build `webpack -p`,
 * use `json-es6-loader`
-* disable modules in `.babelrc` or in `webpack.config.js` - `presets: [["es2015", { modules: false }]`,
+* disable modules in `.babelrc` or in `webpack.config.js` - `presets: [["es2015", { "modules": false }]`,
 * always import propertiers by name, ie. `import { fooProperty } from './foobar.json'`
 
 ## License
