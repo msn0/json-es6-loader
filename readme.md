@@ -1,6 +1,6 @@
 # json-es6-loader
 
-Load JSON as ES6 module. 
+> Load JSON as ES6 module. 
 
 This loader transforms the following JSON
 
