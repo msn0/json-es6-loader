@@ -51,4 +51,4 @@ Please read official guide https://webpack.js.org/guides/tree-shaking/. Just to 
 
 ## License
 
-MIT
+MIT &copy; [Michał Jezierski](https://pl.linkedin.com/in/jezierskimichal)
