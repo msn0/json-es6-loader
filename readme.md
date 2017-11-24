@@ -24,7 +24,7 @@ export const _nine = 'nine-value';
 export const st_ra_n_ge = 'strange-value';
 ```
 
-This module was build as a workaround to enable tree shaking of unused JSON properties. Take a look at https://github.com/webpack/webpack/issues/5734.
+This module was build as a workaround to enable Tree Shaking of unused JSON properties. Take a look at https://github.com/webpack/webpack/issues/5734.
 
 ## Installation
 
@@ -40,6 +40,14 @@ $ npm i json-es6-loader -D
     use: 'json-es6-loader'
 }
 ```
+
+## Remarks on Tree Shaking
+
+Please read official guide https://webpack.js.org/guides/tree-shaking/. Just to summarize it - in order to enable Tree Shaking for JSON modules you need to: 
+* use production build `webpack -p`,
+* use `json-es6-loader`
+* disable modules in `.babelrc` or in `webpack.config.js` - `presets: [["es2015", { modules: false }]`,
+* always import propertiers by name, ie. `import { fooProperty } from './foobar.json'`
 
 ## License
 
